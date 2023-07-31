@@ -1,0 +1,66 @@
+body {
+  color:rgba(105, 85, 85, 0.91);
+  background-color: antiquewhite;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: normal;
+  font-size: 16px;
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(99, 77, 77, 0.871);
+  font-size: 35px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(90, 73, 73, 0.936);
+  font-size: 25px;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(57, 35, 35);
+  font-size: 20px,
+}
+button {
+  font-size: medium;
+}
+a {
+  text-decoration: solid;
+  color:blueviolet
+
+}
+a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+.container {
+  margin: 50px auto;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  background: -moz-linear-gradient(90);
+  width: 700px;
+  box-shadow: blueviolet;
+  margin: 24px auto;
+  border-radius: 10%;
+  padding: 20px;
+  border: 1px solid lightgrey;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+ @media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+ }
